@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_compile_options(-g)
 
-add_executable(fusilli main.cpp)
+add_executable(fusilli main.cpp colors.h)
 target_link_libraries(fusilli ${SDL2pp_LIBRARIES} SDL2pp::SDL2pp)
